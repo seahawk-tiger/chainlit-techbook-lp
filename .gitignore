@@ -1,0 +1,26 @@
+# 参考資料（原稿リポジトリ等）
+reference/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (npm/yarn を使う場合)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+.cache/
+
+# Environment / secrets
+.env
+.env.*
