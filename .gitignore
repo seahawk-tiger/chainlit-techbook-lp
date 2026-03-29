@@ -1,6 +1,12 @@
 # 参考資料（原稿リポジトリ等）
 reference/
 
+# 企画資料
+plan/
+
+# デザインサンプル（トンマナ検証用）
+sample/
+
 # OS generated files
 .DS_Store
 Thumbs.db
@@ -24,3 +30,6 @@ dist/
 # Environment / secrets
 .env
 .env.*
+
+# Claude Code
+CLAUDE.md
