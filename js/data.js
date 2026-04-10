@@ -21,7 +21,8 @@ window.SITE_DATA = {
     ctaSecondary: {
       label: 'BOOTHで購入',
       url: '#',
-      disabled: true
+      disabled: true,
+      hidden: true
     }
   },
 
@@ -37,9 +38,10 @@ window.SITE_DATA = {
     ctaSecondary: {
       label: 'BOOTHで購入',
       url: '#',
-      disabled: true
+      disabled: true,
+      hidden: true
     },
-    coverImage: 'assets/images/cover.svg',
+    coverImage: 'assets/images/cover-front.png',
     coverAlt: 'CHAINLIT TECHBOOK 書影'
   },
 
@@ -76,10 +78,12 @@ window.SITE_DATA = {
     features: [
       {
         title: '9人の多様な視点と作例',
+        icon: 'users',
         description: '環境構築からはじめ、LLMの思考プロセスの可視化やチャット履歴の永続化など、実践的なトピックを幅広く取り上げています。AI英会話ツール・絵しりとり・物理パズルゲームといった、個性豊かな作例にも出会えます。'
       },
       {
         title: 'サンプルコード公開',
+        icon: 'code',
         description: '各章のサンプルコードはGitHubで公開しています。手を動かしながら読み進めることで、Chainlitの便利さをより深く体感できます。',
         linkText: 'サポートページ →',
         linkUrl: 'https://github.com/statditto/chainlit-techbook-support'
@@ -114,16 +118,18 @@ window.SITE_DATA = {
         num: 1,
         title: 'Chainlitはじめの一歩',
         author: 'ditto',
+        icon: 'power',
         description: '高速パッケージマネージャ「uv」でPython環境を構築し、Chainlitのインストールからデモアプリの起動まで、はじめの一歩をステップバイステップで解説します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch1.png'
       },
       {
         category: 'intro',
         num: 2,
         title: 'Chainlitをどう読むか',
         author: 'icebee',
+        icon: 'compass',
         description: 'Chainlitは単なるチャットUIではなく、対話型AIアプリを構築するフレームワーク。GradioやStreamlitとの比較を通じて、その設計思想と全体像を整理します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch2.png'
       },
       // 機能編
       {
@@ -131,32 +137,36 @@ window.SITE_DATA = {
         num: 3,
         title: 'Chainlitの基本機能を概観する',
         author: 'kimajins',
+        icon: 'layout',
         description: '認証、チャットスターター、アシスタント選択といったUI要素からPostgreSQLによる履歴保存まで、Chainlitの基本機能をルールベースのサポートチャットで実践的に解説します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch3.png'
       },
       {
         category: 'features',
         num: 4,
         title: 'ChainlitでLLMを観察しよう!',
         author: 'Yuki Uchiyama',
+        icon: 'eye',
         description: 'LLMアプリの中で「何が起きているか」を可視化するcl.Stepの使い方を中心に、入出力の観察・デバッグ手法やAPIコスト管理のアプローチを紹介します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch4.png'
       },
       {
         category: 'features',
         num: 5,
         title: 'AIが今何をしているか？で不安にならないようにしよう!',
         author: 'Takuto Kotsubo',
+        icon: 'activity',
         description: 'LLMの応答を待つ間、ユーザーを不安にさせない工夫を4つ紹介。Markdownでの可視化、TaskListによる進捗表示、Plotlyでのグラフ、並行処理によるメッセージ分割を取り上げます。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch5.png'
       },
       {
         category: 'features',
         num: 6,
         title: 'Official data layerを使う!',
         author: 'ckato',
+        icon: 'database',
         description: 'Chainlit公式のデータレイヤーを使い、PostgreSQLとS3互換ストレージでチャット履歴を永続化。Docker ComposeとPrisma ORMによる環境構築を交えて手順を追っていきます。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch6.png'
       },
       // 応用編
       {
@@ -164,32 +174,36 @@ window.SITE_DATA = {
         num: 7,
         title: 'Chainlitで作るAI英会話ツール',
         author: 'Tomoya Yanagi',
+        icon: 'mic',
         description: 'OpenAI Whisper APIで音声をテキストに変換し、GPT-4o-mini-ttsで音声合成。Chainlit上で「聞いて・話して・返事をもらう」インタラクティブな英会話ツールを約230行で実装します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch7.png'
       },
       {
         category: 'advanced',
         num: 8,
         title: 'CustomElementを使って絵しりとりを作る!',
         author: 'ditto',
+        icon: 'image',
         description: 'Chainlitの画面にHTML5 Canvasのお絵かきボードを埋め込み、Gemini APIと連携して「絵しりとり」ゲームを実現。CustomElementでチャットUIの枠を超えた表現を学べます。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch8.png'
       },
       {
         category: 'advanced',
         num: 9,
         title: 'LLMでインタラクティブな物理パズルゲームを作る',
         author: 'Naoki Hojo',
+        icon: 'gamepad',
         description: 'LLMにステージを自動生成させる物理パズルゲームを実装。send_window_messageによるリアルタイム通信と2カラムレイアウトで、チャット＋ゲーム画面の連携を実現します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch9.png'
       },
       {
         category: 'advanced',
         num: 10,
         title: 'ChainlitのUIを癖に染める',
         author: 'seahawk',
+        icon: 'zap',
         description: 'カスタムCSSとJavaScriptを駆使して、ChainlitのUIをSF風テーマに魔改造。回転アニメーションや色彩エフェクトなど、標準UIの枠を超えたカスタマイズ手法を紹介します。',
-        image: 'assets/images/chapters/chapter.svg'
+        image: 'assets/images/chapters/ch10.png'
       }
     ]
   },
@@ -198,12 +212,7 @@ window.SITE_DATA = {
   purchase: {
     sectionEn: 'PURCHASE',
     sectionTitle: '入手方法',
-    specs: [
-      { label: 'ページ数', value: 'TBD' },
-      { label: '価格', value: 'TBD' },
-      { label: '発行日', value: 'TBD' },
-      { label: '判型', value: 'TBD' }
-    ],
+    specs: [],
     stores: [
       {
         name: '技術書典オンラインマーケット',
@@ -219,7 +228,8 @@ window.SITE_DATA = {
         period: '（準備中）',
         buttonText: 'BOOTHで購入',
         buttonUrl: '#',
-        disabled: true
+        disabled: true,
+        hidden: true
       }
     ],
     support: {

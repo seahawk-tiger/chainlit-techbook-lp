@@ -7,6 +7,9 @@ plan/
 # デザインサンプル（トンマナ検証用）
 sample/
 
+# 広告出稿関連（キーワード・オーディエンス・コピー等）
+ads/
+
 # OS generated files
 .DS_Store
 Thumbs.db

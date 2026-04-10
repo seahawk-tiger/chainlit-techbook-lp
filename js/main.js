@@ -9,7 +9,24 @@
     'map-pin': '<svg class="event-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>',
     flag: '<svg class="event-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>',
     check: '<svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',
-    package: '<svg class="support-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>',
+    package: '<svg class="support-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>'
+  };
+
+  // ===== Decorative Card Icons (Feather Icons) =====
+  var DECO = {
+    users: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+    code: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>',
+    power: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/></svg>',
+    compass: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(135 12 12)"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></g></svg>',
+    layout: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>',
+    eye: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>',
+    activity: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>',
+    database: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>',
+    mic: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>',
+    image: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>',
+    gamepad: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><line x1="15" y1="13" x2="15.01" y2="13"/><line x1="18" y1="11" x2="18.01" y2="11"/><rect x="2" y="6" width="20" height="12" rx="2"/></svg>',
+    crosshair: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>',
+    zap: '<svg class="card-deco-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>'
   };
 
   // ===== Helper =====
@@ -29,10 +46,12 @@
       html += '<li><a href="' + l.href + '" class="nav-link">' + esc(l.label) + '</a></li>';
     });
     html += '<li><a href="' + esc(nav.ctaPrimary.url) + '" class="btn-nav" target="_blank" rel="noopener">' + esc(nav.ctaPrimary.label) + '</a></li>';
-    if (nav.ctaSecondary.disabled) {
-      html += '<li><span class="btn-nav-secondary" style="opacity:0.5;cursor:default;">' + esc(nav.ctaSecondary.label) + '</span></li>';
-    } else {
-      html += '<li><a href="' + esc(nav.ctaSecondary.url) + '" class="btn-nav-secondary" target="_blank" rel="noopener">' + esc(nav.ctaSecondary.label) + '</a></li>';
+    if (!nav.ctaSecondary.hidden) {
+      if (nav.ctaSecondary.disabled) {
+        html += '<li><span class="btn-nav-secondary" style="opacity:0.5;cursor:default;">' + esc(nav.ctaSecondary.label) + '</span></li>';
+      } else {
+        html += '<li><a href="' + esc(nav.ctaSecondary.url) + '" class="btn-nav-secondary" target="_blank" rel="noopener">' + esc(nav.ctaSecondary.label) + '</a></li>';
+      }
     }
     document.getElementById('navbarLinks').innerHTML = html;
   })();
@@ -40,10 +59,12 @@
   // ===== Hero =====
   (function renderHero() {
     var h = D.hero;
-    var secondaryClass = h.ctaSecondary.disabled ? 'btn btn-hero-secondary' : 'btn btn-hero-secondary';
-    var secondaryTag = h.ctaSecondary.disabled
-      ? '<span class="btn btn-hero-secondary" style="opacity:0.5;cursor:default;">' + esc(h.ctaSecondary.label) + '</span>'
-      : '<a href="' + esc(h.ctaSecondary.url) + '" class="btn btn-hero-secondary" target="_blank" rel="noopener">' + esc(h.ctaSecondary.label) + '</a>';
+    var secondaryTag = '';
+    if (!h.ctaSecondary.hidden) {
+      secondaryTag = h.ctaSecondary.disabled
+        ? '<span class="btn btn-hero-secondary" style="opacity:0.5;cursor:default;">' + esc(h.ctaSecondary.label) + '</span>'
+        : '<a href="' + esc(h.ctaSecondary.url) + '" class="btn btn-hero-secondary" target="_blank" rel="noopener">' + esc(h.ctaSecondary.label) + '</a>';
+    }
 
     document.getElementById('heroInner').innerHTML =
       '<div class="hero-text">' +
@@ -98,7 +119,9 @@
     var a = D.about;
     var featHtml = '';
     a.features.forEach(function (f) {
+      var decoIcon = f.icon && DECO[f.icon] ? DECO[f.icon] : '';
       featHtml += '<div class="feature-card">' +
+        decoIcon +
         '<h3>' + esc(f.title) + '</h3>' +
         '<p>' + esc(f.description) + '</p>' +
         (f.linkUrl ? '<a href="' + esc(f.linkUrl) + '" class="link" target="_blank" rel="noopener">' + esc(f.linkText) + '</a>' : '') +
@@ -164,6 +187,7 @@
     allChapters.forEach(function (ch) {
       cardsHtml += '<div class="chapter-card" data-cat="' + ch.category + '">' +
         '<div class="chapter-card-body">' +
+          (ch.icon && DECO[ch.icon] ? DECO[ch.icon] : '') +
           '<h4>\u7B2C' + ch.num + '\u7AE0 ' + esc(ch.title) + '</h4>' +
           '<p class="author">' + esc(ch.author) + '</p>' +
           '<p class="desc">' + esc(ch.description) + '</p>' +
@@ -257,18 +281,22 @@
     var p = D.purchase;
 
     // Specs
-    var specHtml = '<div class="purchase-spec">';
-    p.specs.forEach(function (s) {
-      specHtml += '<div class="spec-item">' +
-        '<p class="spec-label">' + esc(s.label) + '</p>' +
-        '<p class="spec-value">' + esc(s.value) + '</p>' +
-      '</div>';
-    });
-    specHtml += '</div>';
+    var specHtml = '';
+    if (p.specs.length > 0) {
+      specHtml = '<div class="purchase-spec">';
+      p.specs.forEach(function (s) {
+        specHtml += '<div class="spec-item">' +
+          '<p class="spec-label">' + esc(s.label) + '</p>' +
+          '<p class="spec-value">' + esc(s.value) + '</p>' +
+        '</div>';
+      });
+      specHtml += '</div>';
+    }
 
     // Store cards
     var storeHtml = '<div class="purchase-cards">';
     p.stores.forEach(function (s) {
+      if (s.hidden) return;
       var btnTag = s.disabled
         ? '<button class="btn btn-disabled" disabled>' + esc(s.buttonText) + '</button>'
         : '<a href="' + esc(s.buttonUrl) + '" class="btn btn-primary" target="_blank" rel="noopener">' + esc(s.buttonText) + '</a>';
