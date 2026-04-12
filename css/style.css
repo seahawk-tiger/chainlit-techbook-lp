@@ -293,6 +293,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ===== Event ===== */
 .event-section {
+  display: none; /* イベント終了のため非表示 */
   padding: 5rem 0 4rem;
 }
 .event-banner {
